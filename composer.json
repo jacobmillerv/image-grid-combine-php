@@ -1,0 +1,40 @@
+{
+    "name": "lumfuse/image-grid-combine",
+    "description": "Combine several images into one grid image: grid layout maths plus RGBA compositing, with no dependencies.",
+    "type": "library",
+    "keywords": [
+        "image",
+        "grid",
+        "collage",
+        "combine",
+        "rgba",
+        "alpha",
+        "compositing",
+        "layout",
+        "thumbnail"
+    ],
+    "homepage": "https://aiimagecombiner.app",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ImageGridCombine\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ImageGridCombine\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
